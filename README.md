@@ -16,6 +16,9 @@ Trong quá trình code, và cài thư viện, thư mục `venv` có thể lên �
 
 # Chạy project
 
+## Bật biến môi trường
+- `venv\Scripts\activate`
+
 ## Setup biến môi trường
 ```
 set FLASK_APP=app.py
