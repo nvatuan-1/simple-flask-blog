@@ -1,0 +1,26 @@
+img.logo-img {
+    width: 80px;
+}
+
+.title-slogan {
+    height: 210px;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+div.title-slogan > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+em {
+    color: rgb(109, 96, 96);
+}
+
+div.div-hr {
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* div.header {
+    border: 1px solid black;
+} */
