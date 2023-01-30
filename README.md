@@ -37,3 +37,8 @@ set FLASK_DEBUG=1
         Trong trường hợp này là: `git remote add origin https://github.com/nvatuan-1/simple-flask-blog.git`
 3. Tạo nhánh, lần đầu thì tạo nhánh `main`
     - Chạy câu lệnh: `git branch -M main` -->
+    
+# Giao diện
+
+![Design](https://user-images.githubusercontent.com/110530318/215522483-3323e943-a81c-449c-aace-39d7e5101f6e.png)
+
