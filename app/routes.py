@@ -5,12 +5,16 @@ from flask import render_template
 ### Điều hướng
 
 @app.route('/')
-def main():
+def home():
     return render_template('home.html')
 
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/content/<int:post_id>')
+def content(post_id: int):
+    return render_template('content.html')
 
 # @app.route('/math/<int:num_a>/<int:num_b>')
 # def math(num_a: int, num_b: int):
