@@ -26,6 +26,10 @@ set FLASK_DEBUG=1
 ```
 
 ## Chạy server
+Nếu có database:
+    - `python tools.py init_db`
+    - `python -i` để kiểm tra kết quả (import tất cả vào và query thử).
+
 - `flask run`
 -> Nhấp vào đường link [http://127.0.0.1:5000](http://127.0.0.1:5000) để thưởng thức.
 
@@ -42,3 +46,17 @@ set FLASK_DEBUG=1
 
 ![Design](https://user-images.githubusercontent.com/110530318/215522483-3323e943-a81c-449c-aace-39d7e5101f6e.png)
 
+# database
+- User
+    user_id: int | primary_key
+    username: string
+    password: string
+    name: string
+    email: string
+- Post
+    post_id: int | primary_key
+    image_url: string
+    title: string
+    intro_content: string
+    post_date: datetime
+    content: string

@@ -2,23 +2,33 @@
 {% block title %}Home page{% endblock %}
 {% block content %}
 
-<div class="row row-home">
-    <div class="col-3">
-        <div class="card">
-            <img class="card-img-top"
-                src="https://mevacon.giaoduc.edu.vn/wp-content/uploads/2018/05/lay-mot-nguoi-dan-ong-tung-trai-suong-hay-thiet-0.png"
-                alt="Card Image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-                <a href="{{ url_for('content', post_id=1) }}" class="btn btn-primary">Xem bài viết</a>
+{% for row in all_posts %}
+
+    <div class="row row-home">
+        {% for item in row %}
+
+            <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="{{ item.image_url }}"
+                        alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.title }}</h5>
+                        <p class="card-text">{{ item.intro_content }}</p>
+                        <a href="{{ url_for('content', post_id=item.id) }}" class="btn btn-primary">Xem bài viết</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Posted on Feb 1, 2023</small>
+                    </div>
+                </div>
             </div>
-            <div class="card-footer">
-                <small class="text-muted">Posted on Feb 1, 2023</small>
-            </div>
-        </div>
+
+        {% endfor %}
     </div>
+
+{% endfor %}
+<!-- 
+<div class="row row-home">
 
     <div class="col-3">
         <div class="card">
@@ -68,72 +78,8 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="row row-home">
-    <div class="col-3">
-        <div class="card">
-            <img class="card-img-top"
-                src="https://mevacon.giaoduc.edu.vn/wp-content/uploads/2018/05/lay-mot-nguoi-dan-ong-tung-trai-suong-hay-thiet-0.png"
-                alt="Card Image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Posted on Feb 1, 2023</small>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-3">
-        <div class="card">
-            <img class="card-img-top"
-                src="https://mevacon.giaoduc.edu.vn/wp-content/uploads/2018/05/lay-mot-nguoi-dan-ong-tung-trai-suong-hay-thiet-0.png"
-                alt="Card Image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Posted on Feb 1, 2023</small>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-3">
-        <div class="card">
-            <img class="card-img-top"
-                src="https://mevacon.giaoduc.edu.vn/wp-content/uploads/2018/05/lay-mot-nguoi-dan-ong-tung-trai-suong-hay-thiet-0.png"
-                alt="Card Image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Posted on Feb 1, 2023</small>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-3">
-        <div class="card">
-            <img class="card-img-top"
-                src="https://mevacon.giaoduc.edu.vn/wp-content/uploads/2018/05/lay-mot-nguoi-dan-ong-tung-trai-suong-hay-thiet-0.png"
-                alt="Card Image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Posted on Feb 1, 2023</small>
-            </div>
-        </div>
-    </div>
-</div>
 
 {% endblock %}

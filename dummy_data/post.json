@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Nam giới mặc suit sao cho đẹp?",
+        "content": "đây là content mẫu",
+        "intro_content": "nam giới ngày nay ăn mặc rất rườm rà, luộm thuộm",
+        "image_url": "https://i.pinimg.com/736x/55/c7/a3/55c7a38242fe919f0bdeee3409ab98bf.jpg",
+        "user_id": 1
+    },
+    {
+        "title": "Nam giới tập thể dục như nào thì tốt?",
+        "content": "đây là content mẫu 2",
+        "intro_content": "Hình thể cho nam giới ngày càng quan trọng, đặc biệt là trong quá trình xây dựng sức khỏe và chinh phục phái yếu",
+        "image_url": "https://i0.wp.com/salt.tikicdn.com/cache/w1200/ts/product/ea/c2/1e/fab3748dfd88a94e862b59381f0c2fd4.jpg",
+        "user_id": 1
+    },
+    {
+        "title": "Nam giới phát triển sự nghiệp làm sao",
+        "content": "đây là content mẫu",
+        "intro_content": "có tiền là có nhiều thứ",
+        "image_url": "https://cafebiz.cafebizcdn.vn/thumb_w/600/162123310254002176/2022/11/25/avatar1669339540119-1669339540285969809952.jpg",
+        "user_id": 1
+    },
+    {
+        "title": "Nam giới nên phát triển kỹ năng gì để có vợ?",
+        "content": "đây là content mẫu 2",
+        "intro_content": "Vợ là người đồng hành suốt đời của đàn ông",
+        "image_url": "https://luatquocbao.vn/wp-content/uploads/2022/04/dieu-kien-ket-hon.jpg",
+        "user_id": 1
+    },
+    {
+        "title": "Nam giới chăm lo con cái như nào",
+        "content": "đây là content mẫu 2",
+        "intro_content": "Con trai nên học ba, con gái nên học mẹ",
+        "image_url": "https://vcdn1-giadinh.vnecdn.net/2021/03/14/con-cai-1-4931-1615706477.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=N3-TukU65FU-hsYbcSZf5A",
+        "user_id": 1
+    }
+]
