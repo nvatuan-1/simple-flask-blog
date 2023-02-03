@@ -44,7 +44,7 @@ Nếu có database:
     
 # Giao diện
 
-![Design](https://user-images.githubusercontent.com/110530318/215522483-3323e943-a81c-449c-aace-39d7e5101f6e.png)
+![Design](https://user-images.githubusercontent.com/110530318/216086471-df0ad3fa-4a77-4046-adc1-f76f80c2d96e.png)
 
 # database
 - User
